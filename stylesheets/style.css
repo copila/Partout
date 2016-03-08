@@ -1,0 +1,327 @@
+
+
+
+#main_wrapper{
+	width: 80%;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+body{
+	color: #4A4A4A;
+	text-align: center;
+	font-family: 'Avenir', sans-serif;
+/*	font-family: 'Josefin Sans', sans-serif;
+*/
+}
+
+#logo{
+
+	/*background-image: url("../img/logo.jpg");*/
+	height: 50px;
+	width: 200px;
+	margin-left: 40%;
+	margin-right: 40%;
+
+}
+
+#headerSection{
+    background-image: url("../img/family-header.png");
+    background-repeat: no-repeat;
+    height: 350px;
+/*	 -khtml-opacity: 0.8;*/
+	 margin-bottom: 100px;
+	 width: 100%;
+/*	 background-color:rgba(85,85,85,.8);*/
+}
+
+.headerText{
+	text-align: center;
+	width: 60%;
+	padding-right: 20%;
+	padding-left: 20%;
+	font-size: 36px;
+	padding-top: 15%;
+	font-weight: bold;
+
+
+}
+
+.imgCircle {
+	box-sizing: border-box;
+	height: 350px;
+	width: 33%;
+	float:left;
+}
+
+
+.imgCircle2{
+	box-sizing: border-box;
+	max-height: 250px;
+	max-width: 280px;
+/*	border-radius: 20%;*/
+}
+.captions{
+	margin-left: 8%;
+	margin-right: 8%;
+	padding-left: 10px;
+	width: 84%;
+	text-align: center;
+	font-size: 24px;
+}
+
+.imgLogo{
+    /*filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */*/
+    filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(100%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+    max-height: 45px;
+    max-width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+}
+.imgLogoTall{
+    /*filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */*/
+    filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(100%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+    max-height: 100px;
+    max-width: 70%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+}
+
+.imgLogoMed{
+    /*filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */*/
+    filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(100%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+    max-height: 65px;
+    max-width: 70%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+}
+
+
+.imgLogo2{
+	box-sizing: border-box;
+	width: 33.333%;
+	float:left;
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 125px;
+	min-width:250px;
+
+
+}
+#headerPhoto{
+	box-sizing:border-box;
+	margin-right: 20%;
+	margin-left: 20%;
+}
+
+
+.clearfix {
+  .clearfix:after
+      content: " ";
+      display: table;
+      clear: both;
+}
+
+#integratedServices{
+	background-color:rgba(216,216,216,.5);
+
+}
+#intSpacing{
+	text-align: center;
+	width: 60%;
+	padding-right: 20%;
+	padding-left: 20%;
+	font-size: 36px;
+	padding-top: 5%;
+	font-weight: bold;
+}
+
+#integrDesc{
+	margin-left: 10%;
+	margin-right: 10%;
+	padding-left: 10px;
+	text-align: center;
+	font-size: 24px;
+	padding-bottom: 3%;
+	text-align: center;
+	width: 70%;
+	margin-right: 15%;
+	margin-left: 15%;
+
+}
+
+.row	{
+	width:100%;
+ 
+}
+@media screen and (max-width: 1100px) {
+    .headerText{ text-align: center;
+		width: 60%;
+		padding-right: 20%;
+		padding-left: 20%;
+		font-size: 36px;
+		padding-top: 15%;
+		font-weight: bold; }
+	#integrDesc{
+		margin-left: 10%;
+		margin-right: 10%;
+		padding-left: 10px;
+		text-align: center;
+		font-size: 24px;
+		padding-bottom: 3%;
+		text-align: center;
+		width: 70%;
+		margin-right: 15%;
+		margin-left: 15%;
+	}
+	#intSpacing{
+		text-align: center;
+		width: 60%;
+		padding-right: 20%;
+		padding-left: 20%;
+		font-size: 36px;
+		padding-top: 5%;
+		font-weight: bold;
+	}
+	.captions{
+		margin-left: 10%;
+		margin-right: 10%;
+		padding-left: 10px;
+		width: 80%;
+		text-align: center;
+		font-size: 24px;
+	}
+	.imgCircle2{ 
+    	max-height: 250px;
+    	max-width: 240px;
+    }
+
+}
+
+@media screen and (max-width: 960px) {
+    .headerText{ text-align: center;
+		width: 60%;
+		padding-right: 20%;
+		padding-left: 20%;
+		font-size: 32px;
+		padding-top: 15%;
+		font-weight: bold; }
+	#integrDesc{
+		margin-left: 10%;
+		margin-right: 10%;
+		padding-left: 10px;
+		text-align: center;
+		font-size: 22px;
+		padding-bottom: 3%;
+		text-align: center;
+		width: 70%;
+		margin-right: 15%;
+		margin-left: 15%;
+	}
+	#intSpacing{
+		text-align: center;
+		width: 60%;
+		padding-right: 20%;
+		padding-left: 20%;
+		font-size: 32px;
+		padding-top: 5%;
+		font-weight: bold;
+	}
+	.captions{
+		margin-left: 10%;
+		margin-right: 10%;
+		padding-left: 10px;
+		width: 80%;
+		text-align: center;
+		font-size: 22px;
+	}
+	.imgCircle2{ 
+    	max-height: 200px;
+    	max-width: 200px;
+    }
+ /*   .imgLogo2{
+	box-sizing: border-box;
+	width: 33.333%;
+	float:left;
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 125px;
+
+}*/
+
+}
+
+@media screen and (max-width: 700px) {
+    .headerText{ text-align: center;
+		width: 60%;
+		padding-right: 20%;
+		padding-left: 20%;
+		font-size: 32px;
+		padding-top: 15%;
+		font-weight: bold; }
+	#integrDesc{
+		margin-left: 10%;
+		margin-right: 10%;
+		padding-left: 10px;
+		text-align: center;
+		font-size: 22px;
+		padding-bottom: 3%;
+		text-align: center;
+		width: 70%;
+		margin-right: 15%;
+		margin-left: 15%;
+	}
+	#intSpacing{
+		text-align: center;
+		width: 60%;
+		padding-right: 20%;
+		padding-left: 20%;
+		font-size: 32px;
+		padding-top: 5%;
+		font-weight: bold;
+	}
+	.captions{
+		margin-left: 10%;
+		margin-right: 10%;
+		padding-left: 10px;
+		width: 80%;
+		text-align: center;
+		font-size: 22px;
+	}
+    .imgCircle { 
+    	float: none; 
+    	width: 100%; 
+    	height: 250px;
+    }
+    .imgLogo{ 
+    	float: none; 
+    	width:100%;
+    }
+    #headerSection{
+    	height: 425px;
+    }
+}`
+
+
+
+
+
+
+
